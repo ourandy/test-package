@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/phpunit,composer
-# Edit at https://www.toptal.com/developers/gitignore?templates=phpunit,composer
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,phpunit,composer
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,phpunit,composer
 
 ### Composer ###
 composer.phar
@@ -24,4 +24,24 @@ composer.phar
 # Build data
 /build/
 
-# End of https://www.toptal.com/developers/gitignore/api/phpunit,composer
+### VisualStudioCode ###
+.vscode/*
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,phpunit,composer

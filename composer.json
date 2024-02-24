@@ -1,5 +1,7 @@
 {
     "name": "ourandy/test-package",
+    "description": "Ourandy PHP test package",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ourandy\\TestPackage\\": "src/"

@@ -45,3 +45,5 @@ composer.phar
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,phpunit,composer
+
+.env
